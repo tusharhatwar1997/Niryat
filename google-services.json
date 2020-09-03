@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "730170413076",
+    "firebase_url": "https://niryat-28bb7.firebaseio.com",
+    "project_id": "niryat-28bb7",
+    "storage_bucket": "niryat-28bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730170413076:android:98ba563f73bfee04",
+        "android_client_info": {
+          "package_name": "com.niryat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730170413076-vhjsnulun6t2sj29ktcsstb4bet7ls99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_6-BJwLJ22PM4j2Rk2v5Us0VytwIT5mA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

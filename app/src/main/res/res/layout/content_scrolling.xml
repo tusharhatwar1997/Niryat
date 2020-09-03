@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_certificate_required"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete List of documnents required for exporting goods from India is given. You will need documents or certificate according to your category of goods to be exported."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:drawablePadding="10dp"
+                android:id="@+id/firsttext"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:id="@+id/heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/clipboard"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:text="Documents to Exports Goods"
+                android:textColor="#BE4444"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/subheading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="1. Shipping Bill / Bill of Export:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shipping Bill/ Bill of Export is the main document required by the Customs Authority for allowing shipment. A shipping bill is issued by the shipping agent and represents some kind of certificate for all parties, included ship's owner, seller, buyer and some other parties. "
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:id="@+id/document1"
+                android:textAlignment="viewStart"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/subheading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2. Customs Declaration Form:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is prescribed by the Universal Postal Union (UPU) and international apex body coordinating activities of national postal administration. It is known by the code number CP2/ CP3 and to be prepared in quadruplicate, signed by the sender. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document2"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/subheading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="3. Despatch Note:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is filled by the exporter to specify the action to be taken by the postal department at the destination in case the address is non-traceable or the parcel is refused to be accepted."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document3"
+                android:textAlignment="viewStart"
+                android:paddingStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/subheading4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="4. Consular Invoice:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mainly needed for the countries like Kenya, Uganda, Tanzania, Mauritius, New Zealand, Burma, Iraq, Ausatralia, Fiji, Cyprus, Nigeria, Ghana, Zanzibar etc. It is prepared in the prescribed format and is signed/ certified by the counsel of the importing country located in the country of export. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document4"
+                android:textAlignment="viewStart"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/subheading5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5. Customs Invoice:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Mainly needed for the countries like USA, Canada, etc. It is prepared on a special form being presented by the Customs authorities of the importing country. It facilitates entry of goods in the importing country at preferential tariff rate. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document5"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:id="@+id/subheading6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="6. Packing List:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It shows the details of goods contained in each parcel / shipment. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document6"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="7. Certificate of Inspection:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" It is a type of document describing the condition of goods and confirming that they have been inspected."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document7"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="8. Black List Certificate:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is required for countries which have strained political relation. It certifies that the ship or the aircraft carrying the goods has not touched those country(s)."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document8"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:id="@+id/subheading9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="9. Manufacturer's Certificate :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is required in addition to the Certificate of Origin for few countries to show that the goods shipped have actually been manufactured and is available."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document9"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="10. Certificate of Chemical Analysis :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is required to ensure the quality and grade of certain items such as metallic ores, pigments, etc."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document10"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="11.Certificate of Shipment:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It signifies that a certain lot of goods have been shipped."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document11"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="12. Health/ Veterinary/ Sanitary Certification:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Required for export of foodstuffs, marine products, hides, livestock etc. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document12"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="13.Certificate of Conditioning:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is issued by the competent office to certify compliance of humidity factor, dry weight, etc."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document13"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="14.Antiquity Measurement :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is issued by Archaeological Survey of India in case of antiques."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document14"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="15.Shipping Order :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Issued by the Shipping (Conference) Line which intimates the exporter about the reservation of space of shipment of cargo through the specific vessel from a specified port and on a specified date."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document15"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="16.Cart/ Lorry Ticket :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is prepared for admittance of the cargo through the port gate and includes the shipper's name, cart/ lorry No., marks on packages, quantity, etc."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document16"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="17.Shut Out Advice:"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is a statement of packages which are shut out by a ship and is prepared by the concerned shed and is sent to the exporter. "
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document17"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/subheading18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="18.Short Shipment Form :"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="It is an application to the customs authorities at port which advises short shipment of goods and required for claiming the return."
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:id="@+id/document18"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/cards"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

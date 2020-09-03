@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:text="Product :-"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text=" Category:-"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/Year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Year"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/Transport_Cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="AverageTransport Cost :-"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_transport_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/Handling_Cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Product :-"
+        android:textColor="#000"
+        tools:text="Average Handling Cost :-" />
+
+    <TextView
+        android:id="@+id/tv_handling_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/Insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Average Insurance Cost :-"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/Delivery_Duty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Average Delivery Duty :-"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/tv_delivery_duty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/textview"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg"
+        android:onClick="GraphView"
+        android:text=" Show Graph"
+        android:textColor="@color/backgroundcolor" />
+
+
+</LinearLayout>

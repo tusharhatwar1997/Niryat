@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:showIn="@layout/activity_procedure_to_export">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="1. EXPORT PROMOTION SCHEMES  "
+                android:textAlignment="center"
+                android:textColor="#BE4444"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Foreign Trade Policy 2015-20 and other schemes provide promotional measures to boost India’s exports with the objective to offset infrastructural inefficiencies and associated costs involved to provide exporters a level playing field. Brief of these measures are as under:"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/subheading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="1.1 Exports from India Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="i. Merchandise Exports from India Scheme (MEIS) \n\n Under this scheme, exports of notified goods/ products to notified markets as listed in Appendix 3B of Handbook of Procedures, are granted freely transferable duty credit scrips on realized FOB value of exports in free foreign exchange at specified rate (2-5%). Such duty credit scrips can be used for payment of custom duties for import of inputs or goods, payment of excise duty on domestic procurement, payment of service tax and payment of custom duties in case of EO default.
+\n\nExports of notified goods of FOB value upto Rs 25, 000 per consignment, through courier or foreign post office using e-commerce shall be entitled for MEIS benefit.
+\n\nii. Service Exports from India Scheme (SEIS)\n\n
+Service providers of notified services as per Appendix 3E are eligible for freely transferable duty credit scrip @ 5% of net foreign exchange earned.
+"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2. DUTY EXEMPTION AND REMISSION SCHEMES"
+                android:textAlignment="center"
+                android:textColor="#BE4444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="These schemes enable duty free import of inputs for export production with export obligation. These scheme consists of:-"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2.1 Advance Authorization Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Under this scheme, duty free import of inputs are allowed, that are physically incorporated in the export product (after making normal allowance for wastage) with minimum 15% value addition. Advance Authorization (AA) is issued for inputs in relation to resultant products as per SION or on the basis of self declaration, as per procedures of FTP. AA normally have a validity period of 12 months for the purpose of making imports  and a period of 18 months for fulfillment of Export Obligation (EO) from the date of issue. AA is issued either to a manufacturer exporter or merchant exporter tied to a supporting manufacturer(s)."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/subheading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2.2 Advance Authorization for annual requirement"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Exporters having past export performance (in at least preceding two financial years) shall be entitled for Advance Authorization for Annual requirement. This shall only be issued for items having SION."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2.3 Duty Free Import Authorization (DFIA) Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/content6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="DFIA is issued to allow duty free import of inputs, with a minimum value addition requirement of 20%. DFIA shall be exempted only from the payment of basic customs duty. DFIA shall be issued on post export basis for products for which SION has been notified. Separate schemes exist for gems and jewellery sector for which FTP may be referred."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2.4 Duty Drawback of Customs/Central Excise Duties/Service Tax"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="The scheme is administered by Department of Revenue. Under this scheme products made out of duty paid inputs are first exported and thereafter refund of duty is claimed in two ways:
+                          \ni) All Industry Rates   :       As per Schedule
+                          \nii) Brand Rate            :       As per application on the basis of data/documents."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="2.5 Rebate of Service tax through all industry rates"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+
+                android:padding="20dp"
+                android:text="Refund of service tax paid on specified output services used for export of goods is available at specified all industry rates."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/heading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="3. EPCG SCHEME\n"
+                android:textAlignment="center"
+                android:textColor="#BE4444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="3.1 Zero duty EPCG scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/content9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Under this scheme import of capital goods at zero custom duty is allowed for producing quality goods and services to enhance India’s export competitiveness. Import under EPCG shall be subject to export obligation equivalent to six times of duty saved in six years. Scheme also allows indigenous sourcing of capital goods with 25% less export obligation."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="3.2 Post Export EPCG Duty Credit Scrip Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/content10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+
+                android:padding="20dp"
+                android:text="A Post Export EPCG Duty Credit Scrip Scheme shall be available for exporters who intend to import capital goods on full payment of applicable duty in cash."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/heading4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="4. EOU/EHTP/STP AND BTP SCHEMES"
+                android:textAlignment="center"
+                android:textColor="#BE4444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Units undertaking to export their entire production of goods and services may be set up under this scheme for import/ procurement domestically without payment of duties. For details of the scheme and benefits available therein FTP may be required."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/heading5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5. OTHER SCHEMES\n"
+                android:textAlignment="center"
+                android:textColor="#BE4444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.1 Towns of Export Excellence (TEE)"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Selected towns producing goods of Rs. 750 crores or more are notified as TEE on potential for growth in exports and provide financial assistance under MAI Scheme to recognized Associations."
+                android:textAlignment="viewStart"
+                android:textColor="#33566C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.2 Rebate of duty on “export goods” and “material” used in manufacture of such goods"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Rebate of duty paid on excisable goods exported or duty paid on the material used in manufacture of such export goods may be claimed under Rule of 18 of Central Excise Rules, 2002.  "
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.3 Export of goods under Bond i.e. without payment of excise duty"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Rule 19 of Central Excise Rules 2002 provides clearance of excisable goods for exports without payment of central excise duty from the approved factory, warehouse and other premises."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.4 Market Access Initiative (MAI) Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+
+                android:padding="20dp"
+                android:text="Under the Scheme, financial assistance is provided for export promotion activities on focus country, focus product basis to EPCs, Industry and Trade Associations, etc.  The activities are like market studies/surveys, setting up showroom/warehouse, participation in international trade fairs, publicity campaigns, brand promotion, reimbursement of registration charges for pharmaceuticals, testing charges for engineering products abroad, etc. "
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.5 Marketing Development Assistance (MDA) Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Financial assistance is available for exporters having an annual export turnover upto Rs. 30 crores for trade fairs, buyer seller meets organized by EPC’s/ Trade promotion organizations."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/subheading14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:text="5.6 Status Holder Scheme"
+                android:textAlignment="center"
+                android:textColor="#339900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/content17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cards"
+                android:padding="20dp"
+                android:text="Upon achieving prescribed export performance, status recognition as one star Export House, two Star Export House, three star export house, four star export house and five star export house is accorded to the eligible applicants as per their export performance.  Such Status Holders are eligible for various non-fiscal privileges as prescribed in the Foreign Trade Policy."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

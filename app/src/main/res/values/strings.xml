@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Niryat</string>
+    <string name="email">email</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="or">or</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="mobile_number">mobile_number</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="others">others</string>
+    <string name="full_name">full_name</string>
+    <string name="email_address">email_address</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="todo">todo</string>
+    <string name="Logot">Logout</string>
+    <string name="get_complete_guide_to_export">Get Complete Guide To Export</string>
+    <string name="procedure_to_export">Procedure To Export</string>
+    <string name="total_cost_required_for_product">Total Cost Required For Product</string>
+    <string name="cost_of_export">Cost Of Export</string>
+    <string name="analytics">Analytics</string>
+    <string name="graphical_view_to_analyse">Graphical View to analyse</string>
+    <string name="otodo">TODO</string>
+    <string name="about_policies_schemes"><![CDATA[About Policies & Schemes]]></string>
+
+    <string name="lblCategory">Select Category Type</string>
+    <string name="lblProduct">Select Product Type Head</string>
+    <string name="lblYear">Select Year </string>
+    <string name="show">Show</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="todoo">TODO</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="category">
+        <item>Agriculture</item>
+        <item>Automobile</item>
+        <item>Hardware</item>
+        <item>Spices</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+
+
+    <string-array name="country_arrays">
+        <item>India</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>Malaysia</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="unit">
+        <item>lbs</item>
+        <item>Kg</item>
+    </string-array>
+    <string name="val">Enter the value of product</string>
+    <string name="cal_name">Export cost Calculator</string>
+    <string name="hc">Handling cost of Carriage</string>
+    <string name="cf"> Enter Cost of Custom formalities</string>
+    <string name="hc2">Handling cost in originating terminal</string>
+    <string name="fob">Free on board charges</string>
+    <string name="tmt">Enter Cost of main transport</string>
+    <string name="ins">Cost of insurance</string>
+    <string name="cd">Custom duties </string>
+    <string name="oc">Other cost</string>
+    <string name="it">import taxes</string>
+    <string name="total">Total duty paid :</string>
+    <string name="reset">Reset</string>
+    <string name="cal">Calculate</string>
+    <string name="quan">quantity</string>
+    <string name="per">%</string>
+    <string name="srccity">Enter city to export</string>
+    <string name="mins"> View mini statement</string>
+    <string name="dest">Select destination Country</string>
+    <string name="port">Select port to export</string>
+    <string name="fsval">Actual Value of the product :</string>
+    <string name="tax">Custom duty and Import Taxes :</string>
+    <string name="cert">Cost for Certification :</string>
+    <string name="modet">Main transport cost :</string>
+    <string name="cat">Choose a category</string>
+    <string-array name="lblcategory">
+        <item>Agriculture products</item>
+        <item>Hardware</item>
+        <item>Spices</item>
+        <item>Automobiles</item>
+
+    </string-array>
+    <string-array name="lblPort">
+        <item>CHHATRAPATI SHIVAJI AIRPORT MUMBAI</item>
+        <item>INDIRA GANDHI INTERNATIONAL AIRPORT DELHI</item>
+        <item>PORT OF VISAKHAPATNAM</item>
+        <item>JAWAHARLAL NEHRU PORT (NHAVA SHEVA)MUMBAI</item>
+        <item>CHENNAI PORT</item>
+    </string-array>
+    <string-array name="destcountry">
+        <item>Australia</item>
+        <item>United States of America</item>
+        <item>Germany</item>
+        <item>South Africa</item>
+        <item>United Kingdom</item>
+    </string-array>
+    <string name="pro">Choose product</string>
+
+
+</resources>
